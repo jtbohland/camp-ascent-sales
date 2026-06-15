@@ -1,0 +1,250 @@
+{
+  "file": "03_weather_the_storm.json",
+  "section": "Weather the Storm \u26c8\ufe0f",
+  "clip_id_note": "clip_id matches across all 4 JSON files. Clip 1 = Day 1 video, Clip 17 = Day 15b video.",
+  "description": "Session summary card. Fires only if learner fails engagement AND fails Search & Rescue. Shows 3-sentence overview + 5 key takeaways. 5-minute countdown timer. When timer hits 0, next video unlocks automatically \u2014 no action needed from learner.",
+  "trigger_condition": "engagement_score < 80 AND search_and_rescue_score < 80",
+  "timer_minutes": 5,
+  "on_timer_expire": "unlock_next_video",
+  "total_clips": 17,
+  "clips": [
+    {
+      "clip_id": 1,
+      "title": "Day 1: Ideal Customer Profiles (Personas & Industries)",
+      "timer_minutes": 5,
+      "on_timer_expire": "unlock_next_video",
+      "overview": "Amplitude sells into six priority industries \u2014 financial services, media & entertainment, retail & e-commerce, technology, healthcare, and education \u2014 each with distinct digital product goals and pain points. Within those industries, three buyer personas drive most deals: the product leader (CPO/VP Product) who owns adoption and roadmap, the data leader (Head of Data/Analytics) who owns infrastructure and trust, and the marketing leader (CMO/VP Growth) who owns acquisition and retention. Understanding which persona you're talking to \u2014 and what they're measured on \u2014 is what separates a generic pitch from a deal that moves.",
+      "takeaways": [
+        "Amplitude's six priority industries are financial services, media & entertainment, retail & e-commerce, technology, healthcare, and education \u2014 knowing the industry shapes which value drivers to lead with.",
+        "The three core buyer personas are product leader, data leader, and marketing leader \u2014 each has different success metrics, fears, and reasons to buy.",
+        "Product leaders care about adoption, retention, and experiment velocity. Data leaders care about data trust, governance, and pipeline efficiency. Marketing leaders care about acquisition cost, conversion, and lifecycle value.",
+        "ICPs are a qualification filter, not a target list \u2014 use them to quickly assess whether a prospect has the right profile to get value from Amplitude fast.",
+        "Always map your discovery questions to the persona in the room: a question that lands for a CPO will fall flat with a Head of Data, and vice versa."
+      ]
+    },
+    {
+      "clip_id": 2,
+      "title": "Day 2: Top of Funnel (TOFU) \u2013 MQLs & Inbounds",
+      "timer_minutes": 5,
+      "on_timer_expire": "unlock_next_video",
+      "overview": "MQLs are generated when a prospect crosses a scoring threshold based on intent signals \u2014 web visits, content downloads, trial signups, and event attendance \u2014 and are then routed to AEs based on account ownership and segment rules. Speed-to-lead is the single most important variable in inbound conversion: the first rep to engage a qualified inbound has a dramatically higher chance of booking a meeting than one who waits even a few hours. The GTM Launch Pad in Salesforce is the AE's home for managing MQL queues, understanding lead context, and executing the right follow-up action for each inbound scenario.",
+      "takeaways": [
+        "MQLs are scored on intent signals \u2014 not all inbounds are equal. Read the lead source, page history, and scoring context before you reach out so your first message is relevant.",
+        "Speed-to-lead is everything. Respond to high-intent inbounds within minutes, not hours. First contact advantage is real.",
+        "The GTM Launch Pad is your single pane of glass for inbound management \u2014 check it daily and know how to read the Breach, Auto-Accept, Manual Accept, and Disqualify scenarios.",
+        "Not every MQL should be accepted. Disqualifying a bad-fit lead quickly is as valuable as working a good one \u2014 it keeps your pipeline clean and your forecast accurate.",
+        "Your follow-up message should reference why the lead came in. Generic sequences kill conversion. Personalize to the intent signal."
+      ]
+    },
+    {
+      "clip_id": 3,
+      "title": "Day 3: GTM Launch Pad (SFDC Sales Dashboard)",
+      "timer_minutes": 5,
+      "on_timer_expire": "unlock_next_video",
+      "overview": "The GTM Launch Pad is Amplitude's command center for AEs \u2014 a Salesforce CRM Analytics dashboard that gives you a live view of your territory health, pipeline coverage, stage distribution, and activity metrics all in one place. The goal is to turn data into daily action: which accounts need a touch, which deals are at risk of stalling, and where your coverage is thin relative to quota. Using the Launch Pad as your morning ritual replaces reactive firefighting with proactive pipeline management.",
+      "takeaways": [
+        "The GTM Launch Pad is your single source of truth for territory health \u2014 open it every morning before you open your email.",
+        "Pipeline coverage ratio is the first number to check. You need enough pipeline at the right stages to hit your number \u2014 if coverage is thin in early stages, that's a prospecting problem to solve now, not at quarter end.",
+        "Stage distribution tells you where deals are clustering. Deals piling up in Stage 3 with no Stage 4 movement signals qualification or champion issues \u2014 not a closing problem.",
+        "Activity metrics are a leading indicator. Low activity today means low pipeline in 60 days. The Launch Pad makes this visible before it becomes a quota miss.",
+        "Use the dashboard to build your weekly action plan: identify the 3-5 accounts that need movement, the deals at risk, and the whitespace you haven't touched."
+      ]
+    },
+    {
+      "clip_id": 4,
+      "title": "Day 4: Prospecting Process (ZoomInfo)",
+      "timer_minutes": 5,
+      "on_timer_expire": "unlock_next_video",
+      "overview": "Amplitude's prospecting motion combines intent data from ZoomInfo with account prioritization from the GTM Launch Pad to build a high-signal, multi-channel outreach approach across email, phone, LinkedIn, and Reachdesk gifting. ZoomInfo is the primary tool for building prospect lists, identifying decision-makers, and understanding a target company's tech stack \u2014 which tells you whether they're likely using a competitor and how complex their data infrastructure is. The goal is never volume for its own sake: it's booking meetings with the right people at the right accounts by showing up with relevant, personalized context from the first touch.",
+      "takeaways": [
+        "Always start with account prioritization before building prospect lists \u2014 the GTM Launch Pad tells you which accounts to focus on; ZoomInfo tells you who to reach at those accounts.",
+        "ZoomInfo's intent data and tech stack filters are your unfair advantage. If a company is running Google Analytics and has shown Amplitude intent signals, that's a warm account \u2014 lead with that context.",
+        "Multi-channel outreach works. Email alone has declining response rates. Layer in phone, LinkedIn touches, and a well-timed Reachdesk gift for high-priority accounts.",
+        "Personalization at scale means using the signals you have \u2014 lead source, tech stack, company news, persona role \u2014 to make each message feel like it was written specifically for that person.",
+        "Each AE has a $350 monthly Reachdesk budget. Use it strategically on high-priority accounts where a physical touch will differentiate you, not as a spray-and-pray tactic."
+      ]
+    },
+    {
+      "clip_id": 5,
+      "title": "Day 6: The Competitive Landscape",
+      "timer_minutes": 5,
+      "on_timer_expire": "unlock_next_video",
+      "overview": "Amplitude competes most often against Mixpanel, Adobe Analytics, Google Analytics (GA4), Heap, and Pendo \u2014 each with different strengths, customer profiles, and displacement opportunities. The key to winning competitive deals isn't knowing every feature comparison cold \u2014 it's understanding where each competitor is weak and how to run discovery that surfaces those weaknesses as customer pain before the prospect anchors on a vendor. The most dangerous competitor is often the status quo: internal tools, spreadsheets, or a Frankenstack of point solutions that the customer has too much political capital invested in to easily abandon.",
+      "takeaways": [
+        "Know the three most common competitive scenarios you'll face: Mixpanel displacement (win on enterprise scale and platform breadth), GA4 rip-and-replace (win on product analytics depth and event modeling), and in-house/Frankenstack (win on time-to-insight and total cost of ownership).",
+        "Never trash competitors. Position Amplitude's strengths \u2014 then let the customer's own pain tell the rest of the story through your discovery questions.",
+        "Spekit's Compete hub is your real-time battlecard resource. Check it before any call where a competitor is mentioned \u2014 it's updated more frequently than any training deck.",
+        "The status quo is always a competitor. Budget, change management, and political inertia kill more deals than Mixpanel does. Your discovery must uncover the cost of doing nothing.",
+        "Competitive intel belongs in MEDDPICC. If you've identified a competitor in the deal, document it in Salesforce \u2014 it helps forecast accuracy and gives leadership the data to improve positioning."
+      ]
+    },
+    {
+      "clip_id": 6,
+      "title": "Day 7a: Account Planning Best Practices (Account Planning in SFDC)",
+      "timer_minutes": 5,
+      "on_timer_expire": "unlock_next_video",
+      "overview": "Account planning is the shift from reactive opportunity management to proactive territory ownership \u2014 it means thinking about an account's full potential, not just the deal in front of you. A good account plan maps the customer's strategic goals, identifies the key stakeholders and decision-makers across the org, surfaces whitespace where Amplitude isn't yet deployed, and flags retention risks before they become churn signals. In Salesforce, account plans live on the account record and should be treated as living documents updated after every meaningful customer interaction.",
+      "takeaways": [
+        "An account plan has four components: customer goals (what are they trying to achieve this year?), org map (who are the stakeholders, champions, and blockers?), whitespace (where could Amplitude expand?), and risk (what could cause them not to renew?).",
+        "Multi-threading is not optional in strategic accounts. If your only relationship is with one champion and they leave, you lose the account. Map at least three stakeholders and actively build relationships with each.",
+        "Whitespace analysis starts with the products they don't currently use. If they have Analytics but not Experiment, that's an expansion conversation waiting for the right moment.",
+        "Account plans should be updated in Salesforce after every EBR, QBR, or meaningful customer conversation \u2014 not once a quarter right before your manager asks for them.",
+        "Align your POD (AE, SE, CSM, partners) on the account plan. Everyone rowing in a different direction on a strategic account is how you lose a renewal you thought was safe."
+      ]
+    },
+    {
+      "clip_id": 7,
+      "title": "Day 7b: Account Planning Best Practices (Momentum for Slack)",
+      "timer_minutes": 5,
+      "on_timer_expire": "unlock_next_video",
+      "overview": "Momentum is a Slack-native account intelligence tool that surfaces customer activity, health signals, and relationship context directly in the channels where AEs and CSMs already work \u2014 eliminating the need to manually check Salesforce for account updates during the day. By syncing your Google Calendar with Momentum, every customer meeting automatically generates a brief with the account context, recent activity, and open opportunities you need to prepare effectively without digging through CRM records. The goal is to keep the full account picture accessible in real time so your team spends less time searching for information and more time acting on it.",
+      "takeaways": [
+        "Momentum lives in Slack \u2014 sync your Google Calendar immediately so customer meeting briefs start generating automatically before every call.",
+        "The account brief Momentum surfaces before a meeting includes recent activity, open opportunities, health signals, and stakeholder context \u2014 review it 10 minutes before every customer call instead of scrambling through Salesforce.",
+        "Momentum is a POD alignment tool, not just an AE tool. When your CSM, SE, and AE are all in the same Momentum-connected Slack channel for an account, everyone has the same context.",
+        "Health signals in Momentum are early warning indicators. A drop in product engagement or a stalled opportunity in the account channel is a flag to act on \u2014 not something to notice at renewal time.",
+        "The Momentum FAQ in Confluence is the fastest way to troubleshoot setup issues \u2014 check it before submitting a ticket to the Business Systems team."
+      ]
+    },
+    {
+      "clip_id": 8,
+      "title": "Day 8a: Discovery That Accelerates (Challenger Sales Roleplay)",
+      "timer_minutes": 5,
+      "on_timer_expire": "unlock_next_video",
+      "overview": "Great discovery isn't about asking more questions \u2014 it's about asking the right questions in the right sequence to surface pain, quantify impact, and build urgency before you ever show the product. The Challenger framework applied to discovery means you arrive with a commercial insight \u2014 something the customer doesn't already know about their own situation \u2014 and use your questions to teach them to see their problem through Amplitude's lens. MEDDPICC is the structure that ensures you've actually captured what you need: without confirmed Metrics, an identified Economic Buyer, clear Decision Criteria, and a mapped Process, you're not in a deal \u2014 you're in a conversation.",
+      "takeaways": [
+        "Discovery before demo. Never show the product before you understand the customer's specific use cases, current stack, and success metrics. A demo without context is a product tour, not a sale.",
+        "Lead with a commercial insight, not a question list. Your opening should teach the customer something about their situation they hadn't considered \u2014 that's what earns the right to ask deeper questions.",
+        "The most important MEDDPICC fields to lock down in Stage 1-2: Metrics (what does success look like numerically?), Economic Buyer (who controls the budget?), and Identify Pain (what is the cost of the current situation?).",
+        "Active listening means documenting what you hear in Salesforce immediately after the call \u2014 not three days later when you've already blurred the details. Notes are your deal memory.",
+        "Discovery never fully ends. Every customer conversation is an opportunity to deepen your understanding of their organization, update your MEDDPICC, and find new champions or risks."
+      ]
+    },
+    {
+      "clip_id": 9,
+      "title": "Day 8b: Discovery That Accelerates (Spekit Deal Rooms)",
+      "timer_minutes": 5,
+      "on_timer_expire": "unlock_next_video",
+      "overview": "Spekit Deal Rooms give AEs a single, branded workspace to run each deal \u2014 combining discovery recaps, mutual action plans, MEDDPICC insights, and curated content in one place that both the AE and the customer can access and track. The power of a Deal Room is not just organization \u2014 it's buyer engagement visibility: you can see which stakeholders opened the room, which assets they viewed, and how long they spent on each, giving you real-time signal about where attention and interest live in the account. Building a Deal Room early in the cycle positions you as a strategic partner rather than a vendor, and a well-maintained one can be the difference between a deal that closes and one that goes dark.",
+      "takeaways": [
+        "Create your Deal Room at Stage 2, not Stage 4. The earlier you establish a shared workspace, the more it becomes the customer's reference point for the deal \u2014 not your competitor's proposal.",
+        "The mutual action plan inside the Deal Room is your close plan made visible to the customer. When they agree to dates and milestones, you've created buyer commitment without a hard close.",
+        "Engagement analytics are your leading indicator. If a champion stops opening the Deal Room, that's a flag \u2014 reach out before they go cold, not after they've ghosted.",
+        "Curate content for the Deal Room specifically for the personas in the deal. A case study that's perfect for a CPO is likely irrelevant to the Head of Data \u2014 tailor it.",
+        "The #help-spekit Slack channel is your fastest path to troubleshooting or learning new Deal Room features \u2014 use it before building workarounds on your own."
+      ]
+    },
+    {
+      "clip_id": 10,
+      "title": "Day 10: Leveraging Partners",
+      "timer_minutes": 5,
+      "on_timer_expire": "unlock_next_video",
+      "overview": "Amplitude's partner ecosystem \u2014 system integrators, technology partners, and agencies \u2014 is a force multiplier that can accelerate deals, add implementation credibility, and expand Amplitude's footprint in accounts where a partner already has deep relationships. The key to effective partner leverage is knowing when to bring them in: technology partners validate the integration story early in discovery, SIs add weight to the implementation plan at Stage 3-4, and agencies can be the bridge to a marketing buyer who wouldn't otherwise take an AE's call. Every AE should have an active relationship with their regional PSM and at least one SI partner in their territory before they need them in a deal.",
+      "takeaways": [
+        "Know your three partner types and when to use them: technology partners (integration validation, early discovery), system integrators (implementation credibility, Stage 3-4), agencies (marketing buyer access, mid-funnel).",
+        "Partners are most valuable when brought in early with a clear role. A partner dropped into a deal at Stage 5 creates confusion, not confidence. Brief them on the account before the first joint call.",
+        "Tag partner-influenced opportunities in Salesforce correctly from the start. This protects the partner's co-sell credit and keeps your forecast clean \u2014 mislabeled partner opps cause problems at close.",
+        "Your regional PSM (Partner Success Manager) is your first call for any partner question. They know which partners are active in your territory, who to engage, and how to structure joint pursuit.",
+        "Introduce yourself to your designated PSM via Slack this week \u2014 before you have a deal that needs them. Relationships built in advance convert faster than cold escalations."
+      ]
+    },
+    {
+      "clip_id": 11,
+      "title": "Day 11a: Forecasting (Forecasting in Outreach)",
+      "timer_minutes": 5,
+      "on_timer_expire": "unlock_next_video",
+      "overview": "Accurate forecasting is a discipline, not a gut feeling \u2014 it requires keeping Salesforce opportunity stages, close dates, and amounts updated based on concrete buyer verifiers, not optimism. In Outreach, the CQ New Business and CQ Renewal views give AEs a live forecast dashboard where every opportunity's stage, amount, and next step can be reviewed and updated before each weekly forecast call. The three forecast categories \u2014 Commit, Best Case, and Pipeline \u2014 each have a specific meaning and evidentiary standard; using them loosely erodes your manager's trust in your number and makes it harder for the business to plan.",
+      "takeaways": [
+        "Commit means you are highly confident this deal closes this quarter based on confirmed budget, verbal agreement, and a clear paper process in motion. If you'd be embarrassed to have it slip, it's not a Commit.",
+        "Best Case means the deal could close if everything goes right \u2014 you have strong engagement and a likely path, but there's a real risk it slips. Be honest about what 'best case' actually requires.",
+        "Close dates should reflect reality, not wishfulness. Update them based on the customer's stated paper process and decision timeline \u2014 not the date you want to hit quota.",
+        "Update your Outreach opportunity view before every forecast call, not during it. Managers who have to wait for you to update fields live lose confidence in your pipeline discipline.",
+        "MEDDPICC is your forecast validator. Before you call something Commit, check: do you have confirmed Metrics, a named Economic Buyer, a mapped Decision Process, and a clear Paper Process timeline?"
+      ]
+    },
+    {
+      "clip_id": 12,
+      "title": "Day 11b: Forecasting (Intro to Forecasting Services)",
+      "timer_minutes": 5,
+      "on_timer_expire": "unlock_next_video",
+      "overview": "Services forecasting is now a required part of the AE's weekly forecast motion \u2014 PSP and one-time services amounts must be entered in the new Services Forecaster section in Salesforce for any opportunity at Stage 4 or above. PSP is ARR and should be on every deal where the customer can support it; for customers with $250K+ ending ARR who aren't getting PSP, a written PSP Override Reasoning is required. The goal is earlier visibility into services attach so PS teams and delivery partners can plan capacity before deals close, not scramble after.",
+      "takeaways": [
+        "Services forecasting is required at Stage 4 and above \u2014 update your Services Forecaster fields in Salesforce before your weekly forecast call, every week.",
+        "PSP is ARR. It counts toward your quota, qualifies as a second product on your comp plan, and improves renewal rates. Default to including it \u2014 document why you're not when you can't.",
+        "PSP ARR is a subset of total ARR, not separate from it. If a customer spends $250K total and $30K is PSP, enter $250K as total ARR and $30K separately in the PSP field.",
+        "Any $250K+ ending ARR opportunity without PSP forecasted requires a completed PSP Override Reasoning field. Thomas and Nate review this \u2014 don't leave it blank.",
+        "PSP can be blended into the platform fee and made opaque to the customer if needed. It doesn't have to appear as a separate line item \u2014 but it always generates an SOW exhibit in the order form."
+      ]
+    },
+    {
+      "clip_id": 13,
+      "title": "Day 12: Customer Stories (Power to Your Stories)",
+      "timer_minutes": 5,
+      "on_timer_expire": "unlock_next_video",
+      "overview": "Customer stories are the single most powerful tool in a seller's arsenal \u2014 they are 22 times more memorable than statistics, influence 68% of buyers' business decisions, and directly correlate with a 30% higher win rate for sellers who use them consistently. A great customer story has three requirements: it must be personal (about the people, not the technology), relevant (timed to the exact challenge the customer just surfaced), and impactful (it ends with a hard metric that shows the art of the possible). The best AEs at Amplitude \u2014 and the best leaders \u2014 have a library of stories they can pull at the drop of a hat for any conversation, at any stage, in any vertical.",
+      "takeaways": [
+        "Every story needs the four-part arc: introduction (hero's situation), conflict (the crisis that compelled action), turning point (where they chose Amplitude), and the end (the hard outcome metric). Without the metric, the story isn't impactful.",
+        "Relevance requires active listening. A great story told at the wrong moment \u2014 when the conversation hasn't surfaced the problem it solves \u2014 creates a detractor, not a promoter. Wait for the transitionary moment.",
+        "The customer is always the hero, never Amplitude. Amplitude is the Millennium Falcon \u2014 it gets them there. But prospects want to be Han Solo, not the ship.",
+        "HiSpot has 100+ customer stories filterable by industry, platform, geography, and company size. The Win Reports and Customer Verified Outcomes Slack channels are where new stories surface first. Use all three.",
+        "You need more than one story. Build a library of at least five stories across different industries and use cases \u2014 so when a customer surfaces a specific pain, you have the right story ready, not the only story you know."
+      ]
+    },
+    {
+      "clip_id": 14,
+      "title": "Day 13: Contract Lifecycle Management",
+      "timer_minutes": 5,
+      "on_timer_expire": "unlock_next_video",
+      "overview": "At Amplitude, every customer relationship runs on a set of legal agreements \u2014 the MSA (the umbrella framework), the Order Form (the commercial document), and supporting addenda like the DPA, NDA, and BAA \u2014 and the AE's job is to navigate these efficiently without creating delays. The fastest path to close is always the online MSA: it's already incorporated into every order form, governs 90%+ of Amplitude's customers, and requires zero legal involvement. Anything that deviates from standard terms \u2014 custom MSA negotiation, DPA redlines, a BAA request \u2014 triggers a process that can add weeks to the cycle, so understanding when to push for standard terms versus when to escalate is a core deal skill.",
+      "takeaways": [
+        "Always push for the online MSA first. It's the fastest path to close, it's incorporated into every order form automatically, and it governs more than 90% of Amplitude's customers. Custom MSA negotiation requires $50K+ ARR and adds cycle time.",
+        "Be proactive on NDAs \u2014 generate Amplitude's NDA before confidential information is exchanged. If you generate Amplitude's NDA, legal doesn't need to be involved and it doesn't slow the deal.",
+        "Never proactively offer a BAA. Healthcare customers determine whether they need one \u2014 Amplitude doesn't solicit it. BAAs are only available to paying customers and are non-negotiable.",
+        "When customer red lines come back on an MSA, upload the document to the Ironclad workflow in Salesforce and at-mention legal in a comment. No separate Slack message needed \u2014 this keeps the full history in one place.",
+        "The Happy Path for signature is Amplitude's DocuSign within Salesforce. Documents signed this way auto-save to Salesforce Files. Anything outside that path requires manual upload and additional steps."
+      ]
+    },
+    {
+      "clip_id": 15,
+      "title": "Day 14: Deal Desk & CPQ (How to Create a Quote)",
+      "timer_minutes": 5,
+      "on_timer_expire": "unlock_next_video",
+      "overview": "Every deal at Amplitude runs through CPQ \u2014 the Configure, Price, Quote tool in Salesforce \u2014 and understanding how to build a clean, accurate quote is one of the most directly revenue-impacting skills an AE can have. The 2026 PPL is the current pricing model and should always be the default; quotes are built by selecting a package (Growth or Enterprise), choosing the consumption model (Events or MTUs), adding relevant add-ons, and setting the right usage term (annual is almost always preferred). Discounting has clear guardrails: PSP and professional services should never be discounted above 25% or an ARR carve-out is triggered, and all discounts above policy thresholds require approval through DealDesk before an order form can be sent.",
+      "takeaways": [
+        "Always build on 2026 PPL. The internal quote name is for your reference only \u2014 it never appears on the order form. Name quotes clearly (Option 1, Option 2) if presenting multiple scenarios.",
+        "Usage term should be annual whenever possible. Annual usage gives the customer one large pool of events or MTUs to draw from across the year, preventing overage surprises from monthly seasonality.",
+        "Event volume is entered in CPQ as monthly millions. For a 5 billion event annual commitment: 5,000M \u00f7 12 = 416.67. Always use Quicksave after changing any quantity or price.",
+        "PSP and professional services are discounted at the line level, not through the additional discount field. Never discount either above 25% \u2014 it triggers an ARR carve-out. At exactly 25%, you still need DealDesk approval but no carve-out.",
+        "Use Target Net Total instead of percentage discounts when you need an exact number. Remember to subtract PSP and services costs first \u2014 they're excluded from the target net total calculation."
+      ]
+    },
+    {
+      "clip_id": 16,
+      "title": "Day 15a: Leveraging Solution Engineers (SE Partnership & Platform Overview)",
+      "timer_minutes": 5,
+      "on_timer_expire": "unlock_next_video",
+      "overview": "Solution Engineers at Amplitude serve two roles simultaneously: technical lead and trusted advisor \u2014 and because they're not salespeople, customers often trust them more than AEs, which makes them uniquely powerful in deals where technical credibility or customer confidence needs to be established. The most common SE entry point is Stage 3 when a demo needs to be delivered, but SEs can and should be brought in earlier for complex technical discovery or when a new AE needs product support \u2014 just ask the SE manager via Slack or drop an SE request on the Salesforce opportunity. Effective AE-SE partnership comes down to one thing: prep. Salesforce notes updated, a 10-30 minute pre-call sync booked, and alignment on which topics to cover and what value story to tell.",
+      "takeaways": [
+        "SEs are technical lead + trusted advisor \u2014 not just demo resources. Their non-salesperson status gives them a credibility advantage with customers that AEs should actively leverage, not underutilize.",
+        "The formal SE request mechanism is the Salesforce opportunity page (SE Request box), but you can always Slack the SE manager informally \u2014 especially at Stage 1 when formal requests aren't available yet.",
+        "Good SE prep means two things: Salesforce notes fully updated before the call, and a pre-call sync booked (10-15 min for simple calls, 30 min for complex ones). Never walk into a customer call with your SE cold.",
+        "For demo skill development: work through Matt's GuideFlow scenarios first, then watch a live demo, then book a reverse demo session with Matt \u2014 he demos to you, you demo back, you debrief what felt easy vs. hard.",
+        "AEs and SEs use different demo orgs. Your GTM org (AmplyStore/AmplyShop) is clean and polished. The SE demo org is intentionally messy for maximum flexibility. Know which org you're in and why."
+      ]
+    },
+    {
+      "clip_id": 17,
+      "title": "Day 15b: Leveraging Solution Engineers (Why Sell Services & Services Forecasting)",
+      "timer_minutes": 5,
+      "on_timer_expire": "unlock_next_video",
+      "overview": "Professional Services \u2014 both one-time implementation services and the ongoing Premium Success Package (PSP) \u2014 should be part of every deal where the customer can support it, because they directly improve time-to-value, renewal rates, and expansion potential while also increasing deal size and AE commission. The strategic case for services is simple: renewals are almost won or lost during the implementation period, and customers with PSP have historically shown significantly higher renewal rates than those without. Amplitude sells services at a loss relative to market rates \u2014 roughly 25-50% of what a competitor like Adobe charges \u2014 so AEs should be fully convicted when positioning them.",
+      "takeaways": [
+        "PSP is ARR, counts as a second product on your comp plan, and defaults to being included on every deal for customers who can support it. If you're not including PSP, you need a documented reason why \u2014 especially for $250K+ accounts.",
+        "One-time services are time-bound (zero to go-live: implementation, migration, technical consulting). PSP is ongoing (continued adoption, technical expansion, platform depth). Both have value \u2014 they serve different moments in the customer journey.",
+        "Services should be introduced earlier in the cycle, not at close. Once a customer has technically chosen Amplitude, their next thought is 'how do I de-risk this?' \u2014 services answer that question and improve close rates.",
+        "PSP can be blended into the platform fee and made fully opaque on the order form. It doesn't need to be called out as a line item \u2014 but it still generates an SOW exhibit and always counts as ARR.",
+        "Your regional PSLT contact is your partner for services scoping and pitch support. Set up an ongoing cadence with them before you need them in a deal \u2014 they can help you scope, position, and close services just like an SE helps with the technical story."
+      ]
+    }
+  ]
+}
